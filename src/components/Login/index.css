@@ -1,0 +1,88 @@
+.login-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todos-main-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 10px;
+}
+
+.input-box {
+    border: 2px solid #ccc;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-box:focus {
+    border-color: #34b0f1;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #aaa;
+}
+
+.login-btn {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:#29a1e3;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #14e132;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #555;
+}

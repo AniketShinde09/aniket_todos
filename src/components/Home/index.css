@@ -1,0 +1,138 @@
+.main-todos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.main-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo-input-box {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.todo-input-box:focus {
+    border-color: #007bff;
+}
+
+.add-btn {
+    padding: 8px 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.add-todo-card {
+    display: flex;
+    gap: 10px;
+}
+
+.task-list-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.each-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-btn-container {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-btn, .del-btn, .task-status-btn {
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn {
+    background-color: #ffa500;
+}
+
+.edit-btn:hover {
+    background-color: #cc8500;
+}
+
+.del-btn {
+    background-color: #ff4d20;
+}
+
+.del-btn:hover {
+    background-color: #e03e1a;
+}
+
+.task-status-btn {
+    background-color: #1ca8e9;
+}
+
+.task-status-btn:hover {
+    background-color: #0f85c0;
+}
+
+.task-name {
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    color: #333;
+}
+
+@media (max-width: 767px) {
+    .main-heading {
+        font-size: 30px;
+    }
+
+    .task-name {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .todo-input-box {
+        width: 100%;
+    }
+
+    .add-btn {
+        width: 100%;
+    }
+}

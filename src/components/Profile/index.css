@@ -1,0 +1,50 @@
+.profile-container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+    font-size: 36px;
+    border-bottom: 3px solid #ccc;
+    width: 120px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.each-detail-container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.user-details-highlghts {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+.user-details {
+    font-weight: 400;
+    color: #777;
+}
+
+.update-btn {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: #34b0f1;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+    background-color: #29a1e3;
+}
